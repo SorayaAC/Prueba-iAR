@@ -1,0 +1,17 @@
+- Mostrar la información detallada de una serie en concreto
+  1. Elegir la serie y devolver show_id
+  2. Consultar cual es la serie que coíncide con el show_id
+  3. Hacer una consulta a Directors para saber el director
+  4. Hacer una consulta a Actors para saber el/los actores
+  5. Hacer una consulta a Genres para saber el género
+
+- Mostrar la información de visualizaciones de un usuario determinado, dado un mes de un año en concreto
+  1. Seleccionar el usuario mediante user_id
+  2. Seleccionar el mes que se quiere consultar
+  3. Consultar total_episodes_watched de ese mes
+
+
+- Obtener un calendario de emisiones de los episodios de las series
+  1. Obtener todos los episodios
+  2. Ordenarlos por air_date
+  3. Pintarlos en una tabla/calendario

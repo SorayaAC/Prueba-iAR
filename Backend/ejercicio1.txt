@@ -1,0 +1,53 @@
+{
+    "users": [{
+        "user_id",
+        "name",
+        "surname",
+        "username",
+        "email",
+        "age",
+        "gender" 
+        "total_episodes_watched",  
+    }],
+
+    "shows": [{
+        "show_id",
+        "title",
+        "start_year",
+        "end_year",
+        "number_of_episodes",
+        "director_id",
+        "actor_id",
+        "genre_id"
+    }],
+
+    "episodes": [{
+        "episode_id",
+        "number",
+        "title",
+        "season",
+        "air_date",
+        "show_id",
+        "director_id"
+        "actor_id"
+    }],
+
+    "directors": [{
+        "director_id",
+        "name",
+       " surname",
+        "isActor"
+    }],
+
+    "actors": [{
+        "actor_id",
+        "name"
+        "surname"
+        "isDirector"
+    }],
+
+    "genres": [{
+        "genre_id",
+        "name",
+    }]
+}
